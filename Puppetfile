@@ -55,3 +55,11 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "charles"
+github "chrome"
+github "dashlane"
+github "dropbox"
+github "firefox"
+github "iterm2"
+github "opera"

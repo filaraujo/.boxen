@@ -64,15 +64,27 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
+  #include nodejs::v0_6
+  #include nodejs::v0_8
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
-  include ruby::1_9_3
+  #include ruby::1_8_7
+  #include ruby::1_9_2
+  #include ruby::1_9_3
   include ruby::2_0_0
+
+  # applications
+  include charles
+  include chrome::dev
+  include chrome::canary
+  include dashlane 
+  include dropbox
+  include firefox
+  include firefox::nightly
+  include iterm2::stable
+  include opera
+  include opera::developer
 
   # common, useful packages
   package {
