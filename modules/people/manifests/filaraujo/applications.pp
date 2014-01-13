@@ -13,6 +13,7 @@ class people::filaraujo::applications inherits people::filaraujo {
 
 	# development	
 	include charles
+	include heroku
   	include iterm2::stable
 	include ohmyzsh
 	include virtualbox
