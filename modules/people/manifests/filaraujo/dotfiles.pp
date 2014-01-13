@@ -19,10 +19,15 @@ class people::filaraujo::dotfiles inherits people::filaraujo {
         require  => Repository["${boxen::config::srcdir}/dotfiles"]
     }
 
-
     file { "aliases":
         path    => "/Users/${::luser}/.aliases",
         source  => "${boxen::config::srcdir}/dotfiles/.aliases",
+        require  => Repository["${boxen::config::srcdir}/dotfiles"]
+    }
+
+    file { "gitconfig":
+        path    => "/Users/${::luser}/.gitconfig",
+        source  => "${boxen::config::srcdir}/dotfiles/.gitconfig",
         require  => Repository["${boxen::config::srcdir}/dotfiles"]
     }
     
