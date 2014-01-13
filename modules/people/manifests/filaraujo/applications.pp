@@ -27,6 +27,7 @@ class people::filaraujo::applications inherits people::filaraujo {
 	
 
 	sublime_text_3::package { 'Emmet': source => 'sergeche/emmet-sublime' }
+	sublime_text_3::package { 'SASS': source => 'nathos/sass-textmate-bundle' }
 	sublime_text_3::package { 'Swig': source => 'jonschlinkert/sublime-swig' }
 	sublime_text_3::package { 'SublimeLinter': source => 'https://github.com/SublimeLinter/SublimeLinter' }
 	
