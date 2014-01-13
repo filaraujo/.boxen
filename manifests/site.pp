@@ -86,6 +86,14 @@ node default {
   include opera
   include opera::developer
 
+  # sublime 
+  include sublime_text_3
+  include sublime_text_3::package_control
+
+  sublime_text_3::package { 'Emmet': source => 'sergeche/emmet-sublime' }
+  sublime_text_3::package { 'Swig': source => 'jonschlinkert/sublime-swig' }
+  sublime_text_3::package { 'SublimeLinter': source => 'https://github.com/SublimeLinter/SublimeLinter' }
+
   # common, useful packages
   package {
     [
