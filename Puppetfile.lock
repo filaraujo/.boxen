@@ -54,6 +54,11 @@ GITHUBTARBALL
     go (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-googledrive
+  specs:
+    googledrive (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.5.1)
@@ -133,6 +138,11 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: samjsharpe/puppet-ohmyzsh
+  specs:
+    ohmyzsh (1.0.0)
+
 DEPENDENCIES
   boxen (= 3.3.4)
   charles (>= 0)
@@ -145,12 +155,14 @@ DEPENDENCIES
   gcc (= 2.0.1)
   git (= 1.2.5)
   go (= 1.0.0)
+  googledrive (>= 0)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
   iterm2 (>= 0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
+  ohmyzsh (= 1.0.0)
   openssl (= 1.0.0)
   opera (>= 0)
   phantomjs (= 2.0.2)

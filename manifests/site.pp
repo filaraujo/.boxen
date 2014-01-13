@@ -74,26 +74,6 @@ node default {
   #include ruby::1_9_3
   include ruby::2_0_0
 
-  # applications
-  include charles
-  include chrome::dev
-  include chrome::canary
-  include dashlane 
-  include dropbox
-  include firefox
-  include firefox::nightly
-  include iterm2::stable
-  include opera
-  include opera::developer
-
-  # sublime 
-  include sublime_text_3
-  include sublime_text_3::package_control
-
-  sublime_text_3::package { 'Emmet': source => 'sergeche/emmet-sublime' }
-  sublime_text_3::package { 'Swig': source => 'jonschlinkert/sublime-swig' }
-  sublime_text_3::package { 'SublimeLinter': source => 'https://github.com/SublimeLinter/SublimeLinter' }
-
   # common, useful packages
   package {
     [
