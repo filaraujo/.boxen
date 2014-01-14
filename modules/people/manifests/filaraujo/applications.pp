@@ -26,6 +26,8 @@ class people::filaraujo::applications inherits people::filaraujo {
 	sublime_text_3::package { 'Color Scheme - Brackets': source => 'l4ci/Br4ckets-Theme' }
 	
 
+	sublime_text_3::package { 'PreferenceHelper': source => 'Chris---/SublimeText-Preference-Helper' }
+	sublime_text_3::package { 'CSSComb': source => 'csscomb/csscomb-for-sublime' }
 	sublime_text_3::package { 'Emmet': source => 'sergeche/emmet-sublime' }
 	sublime_text_3::package { 'SASS': source => 'nathos/sass-textmate-bundle' }
 	sublime_text_3::package { 'Swig': source => 'jonschlinkert/sublime-swig' }
