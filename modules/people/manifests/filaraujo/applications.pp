@@ -31,7 +31,11 @@ class people::filaraujo::applications inherits people::filaraujo {
 	sublime_text_3::package { 'Emmet': source => 'sergeche/emmet-sublime' }
 	sublime_text_3::package { 'SASS': source => 'nathos/sass-textmate-bundle' }
 	sublime_text_3::package { 'Swig': source => 'jonschlinkert/sublime-swig' }
-	sublime_text_3::package { 'SublimeLinter': source => 'SublimeLinter/SublimeLinter' }
+    sublime_text_3::package { 'SublimeLinter': source => 'SublimeLinter/SublimeLinter3' }
+    sublime_text_3::package { 'SublimeLinter-jshint': source => 'SublimeLinter/SublimeLinter-jshint' }
+	sublime_text_3::package { 'SublimeLinter-json': source => 'SublimeLinter/SublimeLinter-json' }
+    sublime_text_3::package { 'SublimeLinter-csslint': source => 'SublimeLinter/SublimeLinter-csslint' }
+
 
     # dashlane
   	include dashlane
