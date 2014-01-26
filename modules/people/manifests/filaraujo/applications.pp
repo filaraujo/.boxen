@@ -35,6 +35,7 @@ class people::filaraujo::applications inherits people::filaraujo {
     sublime_text_3::package { 'SublimeLinter-jshint': source => 'SublimeLinter/SublimeLinter-jshint' }
 	sublime_text_3::package { 'SublimeLinter-json': source => 'SublimeLinter/SublimeLinter-json' }
     sublime_text_3::package { 'SublimeLinter-csslint': source => 'SublimeLinter/SublimeLinter-csslint' }
+    sublime_text_3::package { 'Javascript Beautify': source => 'enginespot/js-beautify-sublime' }
 
 
     # dashlane
