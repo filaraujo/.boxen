@@ -17,6 +17,7 @@ class people::filaraujo::applications inherits people::filaraujo {
   	include iterm2::stable
 	include ohmyzsh
 	include virtualbox
+    include mongodb
 
 	# sublime
 	include sublime_text_3
