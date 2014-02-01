@@ -37,4 +37,10 @@ class people::filaraujo::dotfiles inherits people::filaraujo {
         require  => Repository["${boxen::config::srcdir}/dotfiles"]
     }
 
+    file { "js-hint.conf":
+        path    => "/Users/${::luser}/.js-hint.conf",
+        source  => "${boxen::config::srcdir}/dotfiles/.js-hint.conf",
+        require  => Repository["${boxen::config::srcdir}/dotfiles"]
+    }
+
 }
