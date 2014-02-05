@@ -3,7 +3,7 @@ class people::filaraujo::applications inherits people::filaraujo {
     notify { "loading applications": }
 
   	# browsers
-	include chrome::dev
+	include chrome::beta
 	include chrome::canary
 	include dropbox
 	include firefox
@@ -37,6 +37,8 @@ class people::filaraujo::applications inherits people::filaraujo {
 	sublime_text_3::package { 'SublimeLinter-json': source => 'SublimeLinter/SublimeLinter-json' }
     sublime_text_3::package { 'SublimeLinter-csslint': source => 'SublimeLinter/SublimeLinter-csslint' }
     sublime_text_3::package { 'Javascript Beautify': source => 'enginespot/js-beautify-sublime' }
+    sublime_text_3::package { 'Sublime JsDocs': source => 'spadgos/sublime-jsdocs' }
+
 
 
     # dashlane
