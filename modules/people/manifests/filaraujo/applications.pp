@@ -15,9 +15,13 @@ class people::filaraujo::applications inherits people::filaraujo {
 	include charles
 	include heroku
   	include iterm2::stable
-	include ohmyzsh
-	include virtualbox
     include mongodb
+    include ohmyzsh
+    include virtualbox
+
+    #phantomjs
+    include phantomjs
+    phantomjs::version { '1.9.0': }
 
 	# sublime
 	include sublime_text_3
