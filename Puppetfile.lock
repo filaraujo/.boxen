@@ -31,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.7)
+    firefox (1.1.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -76,12 +76,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
-    iterm2 (1.0.6)
+    iterm2 (1.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-mongodb
   specs:
-    mongodb (1.2.0)
+    mongodb (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-opera
   specs:
-    opera (0.3.1)
+    opera (0.3.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -182,7 +182,6 @@ DEPENDENCIES
   ohmyzsh (= 1.0.0)
   openssl (= 1.0.0)
   opera (>= 0)
-  phantomjs (>= 0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)

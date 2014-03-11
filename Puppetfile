@@ -67,7 +67,5 @@ github "iterm2"
 github "mongodb"
 github "ohmyzsh",   "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
 github "opera"
-github "phantomjs"
 github "sublime_text_3",   "1.0.0",  :repo => "jozefizso/puppet-sublime_text_3"
 github "virtualbox"
-

@@ -21,7 +21,7 @@ class people::filaraujo::applications inherits people::filaraujo {
 
     #phantomjs
     include phantomjs
-    phantomjs::version { '1.9.1': }
+    phantomjs::version { '1.9.2': }
 
     # sublime
     include sublime_text_3
