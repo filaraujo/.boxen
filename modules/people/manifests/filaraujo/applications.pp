@@ -25,7 +25,7 @@ class people::filaraujo::applications inherits people::filaraujo {
 
     # sublime
     include sublime_text_3
-    include sublime_text_3::package_control
+    #include sublime_text_3::package_control
 
     sublime_text_3::package { 'Theme - Centurion': source => 'allanhortle/Centurion' }
     sublime_text_3::package { 'Color Scheme - Brackets': source => 'l4ci/Br4ckets-Theme' }
@@ -46,10 +46,16 @@ class people::filaraujo::applications inherits people::filaraujo {
 
 
     # dashlane
-  	include dashlane
+    include dashlane
 
-  	#storage
-  	include dropbox
-  	include googledrive
+    #storage
+    include dropbox
+    include googledrive
+
+    #android
+    include android::sdk
+    include android::tools
+    include android::platform_tools
+    include android::studio
 
 }

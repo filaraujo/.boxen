@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-android
+  specs:
+    android (1.2.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.3.4)
@@ -77,6 +82,11 @@ GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
     iterm2 (1.0.7)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.5.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-mongodb
@@ -159,6 +169,7 @@ GITHUBTARBALL
     ohmyzsh (1.0.0)
 
 DEPENDENCIES
+  android (>= 0)
   boxen (= 3.3.4)
   charles (>= 0)
   chrome (>= 0)
@@ -176,6 +187,7 @@ DEPENDENCIES
   hub (= 1.0.3)
   inifile (= 1.0.0)
   iterm2 (>= 0)
+  java (>= 0)
   mongodb (>= 0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
